@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- static method -->
+    <bean id="user-by-static-method" class="com.mci.thinking.in.spring.ioc.overview.dependency.domain.User"
+          factory-method="createUser"/>
+
+    <!-- instance method -->
+    <bean id="user-by-instance-method" factory-bean="userFactory" factory-method="createUser"/>
+
+    <!-- factory bean method -->
+    <bean id="user-by-factory-bean" class="com.mci.thinking.in.spring.bean.factory.UserFactoryBean"/>
+
+    <bean id="userFactory" class="com.mci.thinking.in.spring.bean.factory.DefaultUserFactory"/>
+</beans>
