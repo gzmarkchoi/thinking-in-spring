@@ -15,8 +15,11 @@ public class BeanFactoryAsIoCContainerDemo {
 
         // load config
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
+
         // XML config file
         String location = "classpath:/META-INF/dependency-lookup-context.xml";
+
+        // load config
         int beanDefinitionsCount = reader.loadBeanDefinitions(location);
         System.out.println("Bean definitions count: " + beanDefinitionsCount);
 
@@ -28,6 +31,7 @@ public class BeanFactoryAsIoCContainerDemo {
         if (beanFactory instanceof ListableBeanFactory) {
             ListableBeanFactory listableBeanFactory = (ListableBeanFactory) beanFactory;
             Map<String, User> users = listableBeanFactory.getBeansOfType(User.class);
+
             System.out.println("All users found: " + users);
         }
     }

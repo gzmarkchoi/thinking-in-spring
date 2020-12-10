@@ -13,11 +13,6 @@
     <description>Spring Bean basics</description>
 
     <dependencies>
-        <!-- Spring IoC -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-        </dependency>
         <!-- ioc-container-overview -->
         <dependency>
             <groupId>com.mci</groupId>
