@@ -1,6 +1,6 @@
 package com.mci.thinking.in.spring.ioc.dependency.injection;
 
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
+import com.mci.thinking.in.spring.ioc.overview.domain.User;
 
 /**
  * {@link User} Holder object

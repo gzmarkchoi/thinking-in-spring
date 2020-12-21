@@ -2,8 +2,6 @@ package com.mci.thinking.in.spring.bean.definition;
 
 import com.mci.thinking.in.spring.bean.factory.DefaultUserFactory;
 import com.mci.thinking.in.spring.bean.factory.UserFactory;
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- static method -->
-    <bean id="user-by-static-method" class="com.mci.thinking.in.spring.ioc.overview.dependency.domain.User"
+    <bean id="user-by-static-method" class="com.mci.thinking.in.spring.ioc.overview.domain.User"
           factory-method="createUser"/>
 
     <!-- instance method -->

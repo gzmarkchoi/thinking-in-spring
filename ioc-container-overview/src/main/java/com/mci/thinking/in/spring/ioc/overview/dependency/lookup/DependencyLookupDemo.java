@@ -1,12 +1,10 @@
 package com.mci.thinking.in.spring.ioc.overview.dependency.lookup;
 
 import com.mci.thinking.in.spring.ioc.overview.annotation.Super;
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.SuperUser;
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
+import com.mci.thinking.in.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Map;

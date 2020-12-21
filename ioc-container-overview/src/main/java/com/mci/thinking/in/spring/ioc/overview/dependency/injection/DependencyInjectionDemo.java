@@ -1,17 +1,11 @@
 package com.mci.thinking.in.spring.ioc.overview.dependency.injection;
 
-import com.mci.thinking.in.spring.ioc.overview.annotation.Super;
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
 import com.mci.thinking.in.spring.ioc.overview.repository.UserRepository;
 import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.env.Environment;
-
-import java.util.Map;
 
 public class DependencyInjectionDemo {
     public static void main(String[] args) {

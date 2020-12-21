@@ -1,6 +1,6 @@
 package com.mci.thinking.in.spring.bean.factory;
 
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
+import com.mci.thinking.in.spring.ioc.overview.domain.User;
 
 public interface UserFactory {
     default User createUser() {

@@ -1,6 +1,6 @@
 package com.mci.thinking.in.spring.ioc.overview.repository;
 
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
+import com.mci.thinking.in.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.ApplicationContext;

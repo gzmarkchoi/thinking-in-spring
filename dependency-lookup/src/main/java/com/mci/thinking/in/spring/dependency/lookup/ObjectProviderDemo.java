@@ -1,12 +1,10 @@
 package com.mci.thinking.in.spring.dependency.lookup;
 
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
+import com.mci.thinking.in.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
-
-import java.util.Iterator;
 
 /**
  * Dependency lookup via {@link ObjectProvider}

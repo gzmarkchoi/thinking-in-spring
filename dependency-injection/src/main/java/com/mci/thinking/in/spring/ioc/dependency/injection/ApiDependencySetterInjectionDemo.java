@@ -1,11 +1,9 @@
 package com.mci.thinking.in.spring.ioc.dependency.injection;
 
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
 
 /**
  * Manuel API Annotation dependency setter injection

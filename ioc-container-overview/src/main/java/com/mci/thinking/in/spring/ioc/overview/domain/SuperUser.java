@@ -1,4 +1,4 @@
-package com.mci.thinking.in.spring.ioc.overview.dependency.domain;
+package com.mci.thinking.in.spring.ioc.overview.domain;
 
 import com.mci.thinking.in.spring.ioc.overview.annotation.Super;
 

@@ -1,7 +1,6 @@
 package com.mci.thinking.in.spring.ioc.dependency.injection;
 
-import com.mci.thinking.in.spring.ioc.overview.dependency.domain.User;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import com.mci.thinking.in.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
